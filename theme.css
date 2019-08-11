@@ -1,0 +1,11 @@
+.smed i {
+    color: #136ed6;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.smed i:hover {
+    color: #e42448;
+}
