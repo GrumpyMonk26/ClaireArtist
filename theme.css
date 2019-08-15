@@ -9,3 +9,7 @@
 .smed i:hover {
     color: #e42448;
 }
+
+.mynav a:hover {
+     color: #e42448 !imortant;
+}

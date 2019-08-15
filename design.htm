@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="theme.css">
     <script src="https://kit.fontawesome.com/5654197636.js"></script>
   <title>Claire Evans Artist</title>
     </head>
     <body>
  <!-- Navbar Component -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mynav">
     <a class="navbar-brand" href="#"><img src="images/artlogo.png" class="img-responsive" alt="Claire Evans Artist logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,9 +31,9 @@
           My Art Work
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Pencil Drawings</a>
-          <a class="dropdown-item" href="#">Acrylic Paintings</a>
-            <a class="dropdown-item" href="#">Watercolour Paintings</a>
+          <a class="dropdown-item" href="pencil.html">Pencil Drawings</a>
+          <a class="dropdown-item" href="acrylic.html">Acrylic Paintings</a>
+            <a class="dropdown-item" href="watercolour.html">Watercolour Paintings</a>
         </div>
       </li>
           <li class="nav-item ml-2">
@@ -51,7 +52,22 @@
   </div>
         
      <!-- Footer -->   
-    <footer class="text-center bg-light">2019 Claire Evans Artist &copy;</footer>
+    <footer>
+    <div class="row text-center">
+    <div class ="col-md-4 bg-light">
+        <!--<a class="" href=""><img src="images/artlogo.png" class="img-responsive" alt="Claire Evans Artist logo"></a>-->
+        </div>
+        <div class="col-md-4 bg-light">
+            <p class="text-dark copy">2019 Claire Evans Artist &copy;</p>
+        </div>
+        <!--social media icons-->
+        <div class="col-md-4 smed bg-light">
+            <a href="https://www.facebook.com/claireEvansArtist/?eid=ARCJsDct-0hja4Fur2XKGquVWNKk-UwVatmqPfvifRzrr4OB5Wobd6fnDkDbhlNmTdKkwkrF857dpqn9" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/claireevansartists/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.etsy.com/uk/shop/claireevansartist?fbclid=IwAR2DzHpGP29qaUJK_aAQaYjnaRt2iJCb-K3oNilzeCv1gVUVmO_D_vySJpo" target="_blank"><i class="fab fa-etsy"></i></a>
+        </div>
+        </div>
+        </footer>
     <hr>
 
   <!-- Bootstrap's JavaScript Files -->
